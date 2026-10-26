@@ -1,14 +1,17 @@
 body {
     background-color:blue;
     border: 5px solid white;
-    border-radius: 10px;
-    border-radius: 10px;
     text-align: center;
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+} 
 
-}
 h1{
-    border: 10px solid white;
-
+    border: 5px solid white;
+    padding: 5px;
 
 
 }
