@@ -13,17 +13,18 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
 } 
-
 #banner {
     border: 5px solid white;
+
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 60px;
-    border-top: 5px solid white;
+    height: 100%;
+    border: 5px solid white;
+    font-size: auto;
 }    
 a {
     color: white;
@@ -40,7 +41,9 @@ a {
     position: center;
     color: white;
     box-sizing: border-box;
-    margin: 20px 0;
+    margin: 0;
+    top: 10px;
+    bottom: 10px;
 }
 #stream {
     height: 300px;
@@ -51,4 +54,8 @@ a {
 }
 #requests {
     border: 5px solid white;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
 }
