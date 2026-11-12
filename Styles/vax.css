@@ -1,14 +1,65 @@
 body {
     background-color:blue;
-    border: 5px solid white;
-    border-radius: 10px;
-    border-radius: 10px;
+    
     text-align: center;
-
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+} 
+#banner {
+    border: 5px solid white;
 }
-h1{
-    border: 10px solid white;
 
-
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    font-size: auto;
+}    
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5vw;
+      
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: center;
+    color: white;
+    box-sizing: border-box;
+    margin: 0 10px 10px 0;
+    top: 10px;
+    bottom: 10px;
+}
+#stream {
+    height: 150px;
+    border: 5px solid white;
+}
+#historik {
+    border: 5px solid white;
+}
+#requests {
+    border: 5px solid white;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+main {
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
